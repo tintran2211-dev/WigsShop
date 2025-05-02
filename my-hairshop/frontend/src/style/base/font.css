@@ -1,0 +1,20 @@
+@font-face {
+    font-family: NL Fonts NotoSansRegular;
+    src: url(../../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+@font-face {
+    font-family: NL Fonts NotoSansBolds;
+    src: url(../../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+@font-face {
+    font-family: NL Fonts NotoSansItalics;
+    src: url(../../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+@font-face {
+    font-family: NL Fonts NotoSansSemiBold;
+    src: url(../../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+@font-face {
+    font-family: NL Fonts MontserratRegular;
+    src: url(../../assets/fonts/Montserrat-Regular.woff2);
+}

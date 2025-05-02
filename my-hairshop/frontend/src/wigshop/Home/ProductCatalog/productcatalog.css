@@ -1,0 +1,110 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2c3e50;
+    display: inline-block;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+  
+
+  .image-wrapper {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 10px;
+  }
+  
+  .round-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c3e50;
+  }
+  
+  /* Grid layout for desktop */
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Desktop only: hiển thị khi >= 1024px */
+  .desktop-only {
+    display: flex;
+  }
+  .mobile-only {
+    display: none;
+  }
+  
+  /* Mobile only: carousel khi < 1024px */
+  @media (max-width: 1024px) {
+    .desktop-only {
+      display: none;
+    }
+  
+    .mobile-only {
+      display: block;
+    }
+  
+    .image-wrapper {
+      width: 110px;
+      height: 110px;
+    }
+  
+    .label {
+      font-size: 13px;
+    }
+  
+    .category-title {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .image-wrapper {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .label {
+      font-size: 12px;
+    }
+  
+    .category-title {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-wrapper {
+      width: 75px;
+      height: 75px;
+    }
+  
+    .label {
+      font-size: 11px;
+    }
+  
+    .carousel-container .slick-slide {
+      padding: 0 5px;
+    }
+  }
+  
