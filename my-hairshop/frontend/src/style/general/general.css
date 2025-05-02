@@ -1,0 +1,12 @@
+/* Layout css */
+@import url(../layout/header.css);
+@import url(../layout/footer.css);
+
+/* Base css */
+@import url(../base/font.css);
+@import url(../component/drawerMenu.css);
+
+/* Page css */
+@import url(../../wigshop/Home/home.css);
+@import url(../../wigshop/ProductDetails/product.css);
+ 
