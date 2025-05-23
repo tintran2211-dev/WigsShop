@@ -1,0 +1,61 @@
+.accessory-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  .accessory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .accessory-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .accessory-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .accessory-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .accessory-info {
+    padding: 10px;
+  }
+  
+  .accessory-name {
+    font-size: 14px;
+    color: #444;
+    margin: 5px 0;
+  }
+  
+  .accessory-price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #e60000;
+  }
+
+  .swiper {
+    padding-bottom: 10px;
+  }
+  

@@ -35,7 +35,6 @@ dd {
 html, body {
   font-family:  "NL Fonts MontserratRegular", sans-serif;
   font-size: 16px;
-  /* line-height: 1.5; */
   background: var(--body-color);
   overflow-x: hidden; 
   overflow-y: auto; 

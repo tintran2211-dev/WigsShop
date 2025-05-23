@@ -6,7 +6,7 @@ import "./style/style.css"
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter> {/* Bao quanh App bằng BrowserRouter */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
