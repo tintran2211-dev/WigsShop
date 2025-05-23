@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import "./home.css";
 import ProductCatalog from "./ProductCatalog/ProductCatalog";
 import FeaturedProducts from "./FeaturedProducts/FeaturedProducts";
+import Services from "./Services/Services";
+import HairAccessories from "./HairAccessories/HairAccessories";
 
 const Home: React.FC = () => {
 
@@ -13,6 +15,8 @@ const Home: React.FC = () => {
       <>
       <ProductCatalog />
       <FeaturedProducts />
+      <HairAccessories />
+      <Services />
       </>
   );
 };

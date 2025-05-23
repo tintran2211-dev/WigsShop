@@ -81,11 +81,11 @@
   }
   
   .carousel-arrow.left {
-    left: -30px; /* Đưa mũi tên sang bên trái */
+    left: -30px;
   }
   
   .carousel-arrow.right {
-    right: -30px; /* Đưa mũi tên sang bên phải */
+    right: -30px;
   }
   
   @media (max-width: 1024px) {

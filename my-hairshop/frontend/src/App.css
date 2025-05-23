@@ -8,15 +8,10 @@
     width: 100%;
   }
   
-  header {
-    height: 60px;
-    background-color: #001529;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* .header {
+    overflow: visible !important;
   }
-  
+   */
   /* footer {
     height: 100%;
     background-color: #001529;
@@ -26,10 +21,10 @@
     justify-content: center;
   } */
   
-  main {
+  /* .main {
     flex: 1;
     padding: 20px;
     background-color: #f0f2f5;
     overflow-y: auto;
-  }
+  } */
   
